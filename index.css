@@ -107,3 +107,7 @@ svg{
   padding: 20px 20px 0px 0px;
   flex-direction: column;
 }
+
+a#nopad{
+  padding-left: 0px;
+}
