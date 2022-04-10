@@ -1,0 +1,332 @@
+.websiteBody{
+  margin: 0;
+}.Page{
+  display:block;
+  margin:auto;
+  width:100%;
+  height:auto;
+  pointer-events:auto;
+}
+.Page-outer{
+  pointer-events:none;
+  z-index:1;
+}
+.Frame{
+  position:relative;
+  z-index:2;
+  pointer-events:none;
+  width:100%;
+  margin-left:0;
+  height:1862px;
+  min-width:200px;
+  max-width:1440px;
+  margin:auto;
+  background-color:#ffffff;
+  filter:drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  overflow:hidden;
+}
+.Frame-outer{
+  pointer-events:none;
+  z-index:2;
+}
+.q1{
+  position:relative;
+  z-index:3;
+  pointer-events:none;
+  margin-left:56px;
+  width:253px;
+  min-width:253px;
+  margin-top:41px;
+  margin-bottom:1777px;
+  min-height:44px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(0, 0, 0, 1);
+  font-style:normal;
+  font-family:Montserrat;
+  font-weight:600;
+  font-size:36px;
+  line-height:44px;
+}
+.q1-outer{
+  pointer-events:none;
+  z-index:3;
+  position:relative;
+  display:flex;
+}
+.q4{
+  position:relative;
+  z-index:7;
+  pointer-events:none;
+  margin-left:1305px;
+  width:77px;
+  min-width:77px;
+  margin-top:-1808px;
+  margin-bottom:1786px;
+  min-height:22px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(0, 0, 0, 1);
+  font-style:normal;
+  font-family:Montserrat;
+  font-weight:600;
+  font-size:18px;
+  line-height:22px;
+  text-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-text-stroke:1px rgba(0, 0, 0, 1);
+}
+.q4-outer{
+  pointer-events:none;
+  z-index:7;
+  position:relative;
+  display:flex;
+}
+.q5{
+  position:relative;
+  z-index:6;
+  pointer-events:none;
+  margin-left:1043px;
+  width:74px;
+  min-width:74px;
+  margin-top:-1808px;
+  margin-bottom:1786px;
+  min-height:22px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(0, 0, 0, 1);
+  font-style:normal;
+  font-family:Montserrat;
+  font-weight:600;
+  font-size:18px;
+  line-height:22px;
+}
+.q5-outer{
+  pointer-events:none;
+  z-index:6;
+  position:relative;
+  display:flex;
+}
+.q3{
+  position:relative;
+  z-index:5;
+  pointer-events:none;
+  margin-left:1173px;
+  width:76px;
+  min-width:76px;
+  margin-top:-1808px;
+  margin-bottom:1786px;
+  min-height:22px;
+  text-align:left;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  color:rgba(0, 0, 0, 1);
+  font-style:normal;
+  font-family:Montserrat;
+  font-weight:600;
+  font-size:18px;
+  line-height:22px;
+}
+.q3-outer{
+  pointer-events:none;
+  z-index:5;
+  position:relative;
+  display:flex;
+}
+.q6{
+  position:relative;
+  z-index:4;
+  pointer-events:none;
+  margin-left:164px;
+  width:1112px;
+  min-width:1112px;
+  height:351px;
+  margin-top:-1552px;
+  margin-bottom:1201px;
+  min-height:351px;
+  content:url(assets/images/_6.png);
+}
+.q6-outer{
+  pointer-events:none;
+  z-index:4;
+  position:relative;
+  display:flex;
+}
+.Rectangle-2{
+  position:relative;
+  z-index:11;
+  pointer-events:none;
+  margin-left:138px;
+  width:230px;
+  min-width:230px;
+  height:225px;
+  margin-top:-1061px;
+  margin-bottom:836px;
+  min-height:225px;
+  background-color:rgba(196, 196, 196, 1);
+  filter:drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.Rectangle-2-outer{
+  pointer-events:none;
+  z-index:11;
+  position:relative;
+  display:flex;
+}
+.Rectangle-4{
+  position:relative;
+  z-index:10;
+  pointer-events:none;
+  margin-left:1072px;
+  width:230px;
+  min-width:230px;
+  height:225px;
+  margin-top:-1061px;
+  margin-bottom:836px;
+  min-height:225px;
+  background-color:rgba(196, 196, 196, 1);
+}
+.Rectangle-4-outer{
+  pointer-events:none;
+  z-index:10;
+  position:relative;
+  display:flex;
+}
+.Rectangle-3{
+  position:relative;
+  z-index:9;
+  pointer-events:none;
+  margin-left:761px;
+  width:230px;
+  min-width:230px;
+  height:225px;
+  margin-top:-1061px;
+  margin-bottom:836px;
+  min-height:225px;
+  background-color:rgba(196, 196, 196, 1);
+}
+.Rectangle-3-outer{
+  pointer-events:none;
+  z-index:9;
+  position:relative;
+  display:flex;
+}
+.Rectangle-1{
+  position:relative;
+  z-index:8;
+  pointer-events:none;
+  margin-left:449px;
+  width:230px;
+  min-width:230px;
+  height:225px;
+  margin-top:-1061px;
+  margin-bottom:836px;
+  min-height:225px;
+  background-color:rgba(196, 196, 196, 1);
+}
+.Rectangle-1-outer{
+  pointer-events:none;
+  z-index:8;
+  position:relative;
+  display:flex;
+}
+.Frame-1{
+  position:relative;
+  z-index:12;
+  pointer-events:none;
+  margin-left:138px;
+  width:1163px;
+  min-width:1163px;
+  height:225px;
+  margin-top:-716px;
+  margin-bottom:491px;
+  min-height:225px;
+}
+.Frame-1-outer{
+  pointer-events:none;
+  z-index:12;
+  position:relative;
+  display:flex;
+}
+.Rectangle-7{
+  position:relative;
+  z-index:16;
+  pointer-events:none;
+  margin-left:933px;
+  width:230px;
+  min-width:230px;
+  height:225px;
+  margin-top:0px;
+  margin-bottom:0px;
+  min-height:225px;
+  background-color:rgba(196, 196, 196, 1);
+}
+.Rectangle-7-outer{
+  pointer-events:none;
+  z-index:16;
+  position:relative;
+  display:flex;
+}
+.Rectangle-6{
+  position:relative;
+  z-index:15;
+  pointer-events:none;
+  margin-left:622px;
+  width:230px;
+  min-width:230px;
+  height:225px;
+  margin-top:-225px;
+  margin-bottom:0px;
+  min-height:225px;
+  background-color:rgba(196, 196, 196, 1);
+}
+.Rectangle-6-outer{
+  pointer-events:none;
+  z-index:15;
+  position:relative;
+  display:flex;
+}
+.Rectangle-5{
+  position:relative;
+  z-index:14;
+  pointer-events:none;
+  margin-left:311px;
+  width:230px;
+  min-width:230px;
+  height:225px;
+  margin-top:-225px;
+  margin-bottom:0px;
+  min-height:225px;
+  background-color:rgba(196, 196, 196, 1);
+}
+.Rectangle-5-outer{
+  pointer-events:none;
+  z-index:14;
+  position:relative;
+  display:flex;
+}
+.Rectangle-8{
+  position:relative;
+  z-index:13;
+  pointer-events:none;
+  margin-left:0px;
+  width:230px;
+  min-width:230px;
+  height:225px;
+  margin-top:-225px;
+  margin-bottom:0px;
+  min-height:225px;
+  background-color:rgba(196, 196, 196, 1);
+  filter:drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.Rectangle-8-outer{
+  pointer-events:none;
+  z-index:13;
+  position:relative;
+  display:flex;
+}
