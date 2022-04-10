@@ -15,7 +15,7 @@
   position: fixed;
   bottom: 0;
   background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
+  color:antiquewhite;
   width: 100%;
   padding: 0px 0px 0px 150px;
   flex-direction: column;
@@ -115,4 +115,19 @@ a#nopad{
 
 .nopad{
   padding-left: 0px;
+}
+
+.col-lg{
+  height: 200px;
+  padding: 40px;
+  margin:0px 5% 0px 5%;
+  background-color: antiquewhite;
+  border-radius: 1px;
+}
+div.col-lg{
+  border-radius: 5px;
+}
+
+.container{
+  margin:10% 0px 0px 0px ;
 }
