@@ -1,140 +1,251 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-  <link rel="stylesheet" href="index.css">
-  <script src="index.js"></script>
-  <script src="https://kit.fontawesome.com/7a851dbade.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  
-  <title>Document</title>
+    <!-- ============ Favicon ========== -->
+    <link rel="stylesheet" href="#">
+
+    <!--  =========== Remixcons =========== -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css">
+    <!--  =========== CSS ================ -->
+    <link rel="stylesheet" href="CSS\style.css">
+
+
+
+
+    <title>Document</title>
 </head>
 <body>
-   <!-- The video -->
-<video autoplay muted loop id="myVideo">
-  <source src="SpaceTrip.mp4" type="video/mp4">
-</video>
+    <!-- ========== Header ============ -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <span class="nav__logo-circle">D</span>
+                <span class="nav__logo-name">Darius Brown</span>
+            </a>
 
-<div class="content">
-  <h1 class="hover-underline-animation" >Darius Brown</h1>
-  <h2>A <span>Hubspot Specialist </span>and <span>Certified Full-Stack Web Developer</span></h2>
+            <div class="nav__menu" id="nav-menu">
+                <span class="nav_title">  Menu </span>
 
-      <!-- nav bar -->
-      <div class="Space_nav">
-        <a id="nopad" class="hover-underline-animation" href="Portfolio.html">Portfolio</a>
-        <a class="hover-underline-animation" href="Resume.html">Resume</a>
-        <a class="hover-underline-animation" href="Contact.html">Contact</a>
-        <a class="hover-underline-animation" href="About.html">About</a>
-      </div>
-      
-      <!-- Icons -->
-      <div class="Space_nav">
-        <a class="nopad" href="mailto:brown.darius.r@gmail.com" target="blank"><i class="fas fa-envelope"></i></a>
-        <a href="https://github.com/Darius-Brown" target="blank"><i class="fab fa-github-square"></i></a>
-        <a href="https://www.linkedin.com/in/dariusbrown3" target="blank"><i class="fab fa-linkedin"></i></a>
-        <a href="https://alumni.codeup.com/students/1098" target="blank"><i class="fab fa-codiepie"></i></a>
-        
-      </div>
+                <h3 class="nav__name">Darius</h3>
 
-      <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="canvas1" width="560" height="560" viewBox="0 0 280 280">
-        <title>Owl with brown wave pattern animated</title>
-        <desc>Head, body and wings are filled with the brown wave pattern.</desc>
-        <defs>
-          <pattern id="brownwave" width="40" height="60" patternUnits="userSpaceOnUse" patternTransform="scale(1.5)">
-    
-            <circle cx="10" cy="60" r="10" stroke="none" fill="#F9D5B1"/>
-            <circle cx="30" cy="60" r="10" stroke="none" fill="#F9D5B1"/>
-    
-            <circle cx="0" cy="50" r="10" stroke="none" fill="#D19F6E"/>
-            <circle cx="20" cy="50" r="10" stroke="none" fill="#D19F6E"/>
-            <circle cx="40" cy="50" r="10" stroke="none" fill="#D19F6E"/>
-    
-            <circle cx="10" cy="40" r="10" stroke="none" fill="#AA7139"/>
-            <circle cx="30" cy="40" r="10" stroke="none" fill="#AA7139"/>
-    
-            <circle cx="0" cy="30" r="10" stroke="none" fill="#834A13"/>
-            <circle cx="20" cy="30" r="10" stroke="none" fill="#834A13"/>
-            <circle cx="40" cy="30" r="10" stroke="none" fill="#834A13"/>
-    
-            <circle cx="10" cy="20" r="10" stroke="none" fill="#5B2D00"/>
-            <circle cx="30" cy="20" r="10" stroke="none" fill="#5B2D00"/>
-    
-            <circle cx="0" cy="10" r="10" stroke="none" fill="#3F2D00"/>
-            <circle cx="20" cy="10" r="10" stroke="none" fill="#3F2D00"/>
-            <circle cx="40" cy="10" r="10" stroke="none" fill="#3F2D00"/>
-    
-            <circle cx="10" cy="0" r="10" stroke="none" fill="#F9D5B1"/>
-            <circle cx="30" cy="0" r="10" stroke="none" fill="#F9D5B1"/>
-    
-          </pattern>
-        </defs>
-        <!-- wings -->
-        <ellipse cx="75" cy="130" rx="25" ry="70" fill="url(#brownwave)" stroke="none" stroke-width="2px" transform="rotate(15,75,120)">
-          <animateTransform id="leftwing" attributeName="transform" attributeType="XML" type="rotate" begin="3; peckeropen.end+3" dur="0.5" from="15,75,120" to="45,75,120"/>
-        </ellipse>
-        <ellipse cx="200" cy="130" rx="25" ry="70" fill="url(#brownwave)" stroke="none" stroke-width="2px" transform="rotate(-15,200,120)">
-          <animateTransform id="rightwing" attributeName="transform" attributeType="XML" type="rotate" begin="leftwing.end" dur="0.5" from="-15,200,120" to="-45,200,120"/>
-        </ellipse>
-        <!-- body -->
-        <ellipse cx="140" cy="140" rx="80" ry="108" fill="url(#brownwave)" stroke="none" stroke-width="2px">
-          <animateTransform id="owlbody" attributeName="transform" attributeType="XML" type="translate" begin="rightwing.end+2" dur="0.5" from="0,0" to="0,-4" repeatCount="1"/>
-        </ellipse>
-    
-        <g>
-          <ellipse cx="140" cy="64" rx="80" ry="64" fill="url(#brownwave)" stroke="none" stroke-width="2px"/>
-          <!-- eyes -->
-          <g id="lefteye">
-            <circle cx="105" cy="54" r="30" fill="white" stroke="none">
-              <animate attributeName="r" attributeType="XML" dur="0.2" from="30" to="35" begin="littlerighttoe.mouseover" repeatCount="1"/>
-            </circle> 
-            <circle cx="107" cy="56" r="18" fill="orange" stroke="none">
-              <animate attributeName="r" attributeType="XML" dur="0.2" from="18" to="23" begin="littlerighttoe.mouseover" repeatCount="1"/>
-            </circle>
-            <circle cx="107" cy="56" r="12" fill="black" stroke="none">
-              <animate attributeName="r" attributeType="XML" dur="0.2" from="12" to="10" begin="littlerighttoe.mouseover" repeatCount="1"/>
-            </circle>
-          </g>
-          <g id="righteye">
-            <circle cx="175" cy="54" r="30" fill="white" stroke="none">
-              <animate attributeName="r" attributeType="XML" dur="0.2" from="30" to="35" begin="littlerighttoe.mouseover" repeatCount="1"/>
-            </circle>
-            <circle cx="177" cy="56" r="18" fill="orange" stroke="none">
-              <animate attributeName="r" attributeType="XML" dur="0.2" from="18" to="23" begin="littlerighttoe.mouseover" repeatCount="1"/>
-            </circle>
-            <circle cx="177" cy="56" r="12" fill="black" stroke="none">
-              <animate attributeName="r" attributeType="XML" dur="0.2" from="12" to="10" begin="littlerighttoe.mouseover" repeatCount="1"/>
-            </circle>
-          </g>
-          <polyline id="peckerblack" points="130,84 140,74 150,84 140,106" fill="darkbrown" stroke="none"/>
-          <polyline id="peckerorange" points="130,84 140,74 150,84 140,106" fill="orange" stroke="none">
-            <animate id="peckeropen" attributeName="points" attributeType="XML" dur="0.2" to="130,84 140,74 150,84 140,78" begin="owlhead.end+1" repeatCount="5"/> 
-          </polyline>
-          <!-- ears -->
-          <polyline points="78,24 80,3 96,12" fill="#3F2D00" stroke="none"/>
-          <polyline points="177,8 197,3 199,21" fill="#3F2D00" stroke="none"/>
-          <animateTransform id="owlhead" attributeName="transform" attributeType="XML" type="rotate" begin="owlbody.end+5" dur="1" from="0,140,64" to="-4,140,64"/>
-        </g>
-    
-        <rect x="50" y="230" width="180" height="15" rx="10" ry="11" fill="#3F2D00" stroke="none"/>
-    
-        <g id="leftfoot">
-          <rect x="95" y="225" width="10" height="25" rx="10" ry="11" fill="#C47F00" stroke="none"/>
-          <rect x="105" y="220" width="12" height="35" rx="10" ry="11" fill="#C47F00" stroke="none"/>
-          <rect x="117" y="225" width="10" height="25" rx="10" ry="11" fill="#C47F00" stroke="none"/>
-          <animateTransform attributeName="transform" attributeType="XML" type="translate" begin="littlerighttoe.mouseover" dur="0.5" from="0,0" to="0,-10" repeatCount="1"/>
-        </g>
-        <rect x="153" y="225" width="10" height="25" rx="10" ry="11" fill="#C47F00" stroke="none"/>
-        <rect x="163" y="220" width="12" height="35" rx="10" ry="11" fill="#C47F00" stroke="none"/>
-        <rect id="littlerighttoe" x="175" y="225" width="10" height="25" rx="10" ry="11" fill="#C47F00" stroke="none"/>
-      </svg>
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#Home" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#About" class="nav__link">About Me</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#Projects" class="nav__link">Projects</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#Contact" class="nav__link">Contact Me</a>
+                    </li>
+                </ul>
 
+                <!-- ====== Close Button ======== -->
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
 
-</div> 
+            <div class="nav__buttons">
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-3-line"></i>
+                </div>
+            </div>
+        </nav>
 
-  <script src="js/main.js"></script>
+    </header>
 
+    <!-- ============ Main ============= -->
+    <main class="main">
+        <!-- ==========Home============ -->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <h1 class="home__name">
+                    Darius Brown
+                </h1>
+
+                <div class="home__perfil">
+                    <div class="home__image">
+                        <img src="IMG\pfp.png" alt="image" class="home__img">
+                        <div class="home__shadow"></div>
+
+                        <img src="IMG\curved-arrow.svg" alt="" class="home__arrow">
+                        <img src="IMG\random-lines.svg" alt="" class="home__line">
+                        <div class="geometric-box"></div>
+                    </div>
+
+                    <div class="home__social">
+                        <a href="+17373295167" target="blank" class="home__social-link">
+                            <i class="ri-phone-fill"></i>                        </a>
+                        
+                        <a href="https://www.linkedin.com/in/dariusbrown3/" target="blank" class="home__social-link">
+                            <i class="ri-linkedin-box-fill"></i>
+                        </a>
+
+                        <a href="https://github.com/Darius-Brown" target="blank" class="home__social-link">
+                            <i class="ri-github-fill"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="home__info">
+                    <p class="home__description">
+                        <b>Software Engineer</b>, with knowledge in web development and data analytics,
+                         I offer high quality projects resulting in quality work.
+                    </p>
+
+                    <a href="#about" class="home__scroll">
+                        <div class="home__scroll-box">
+                            <i class="ri-arrow-down-s-line"></i>
+                        </div>
+                        <span class="home__scroll-text">Scroll Down</span>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+        <!-- =========About=========== -->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <h2 class="section__title-1">
+                    About Me
+                </h2>
+                <div class="about__perfil">
+                    <div class="about__image">
+                        <img src="IMG\Sky.jpg" alt="" class="about__img">
+                        
+                        <div class="about__shadow"></div>
+                    
+                        <div class="geometric-box"></div>
+                        <img src="IMG/random-lines.svg" alt="" class="about__line">
+                        <div class="about__box"></div>
+                    </div>
+                </div>
+
+                <div class="about__info">
+                    <p class="about__description">
+                        <b>Austin Texas</b> native, with a passion for all things tech
+                        and a commitment to continued learning leading to personal growth.
+                    </p>
+
+                    <ul class="about__list">
+                        <li class="about__item">
+                            <b>My skills are:</b> HTML, CSS, Javascript, React, Java, Spring, SQL, Python, Git & Github.
+                        </li>
+                    </ul>
+
+                    <div class="about__buttons">
+                        <a href="#contact" class="button">
+                            <i class="ri-send-plane-line"> Contact Me</i>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/dariusbrown3/" class="button__ghost">
+                            <i class="ri-linkedin-box-line"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ============Projects============= -->
+        <section class="projects section" id="projects">
+            <h2 class="section__title-1">
+                <span>Projects</span>
+            </h2>
+
+            <div class="projects__container container grid">
+                <!-- Project 1 -->
+                <article class="projects__card">
+                    <div class="projects__image">
+                        <img src="#" alt="image" class="projects__img">
+                        <a href="#" class="projects__button button">
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
+
+                    <div class="projects_content">
+                        <h3 class="projects__subtitle"></h3>
+                        <h2 class="project-_title"></h2>
+                        <p class="projects__description">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem error enim impedit soluta molestiae esse totam ab odio dolorum unde, repellat eum, omnis suscipit ipsam dolor labore aliquid porro. Accusamus?
+
+                        </p>
+                    </div>
+
+                    <div class="projects__buttons">
+                        <a href="github.com" target="_blank" class="projects__link">
+                            <i class="ri-github-line"></i>View
+                        </a>
+                    </div>
+                </article>
+                 <!-- Project 2 -->
+                 <article class="projects__card">
+                    <div class="projects__image">
+                        <img src="#" alt="image" class="projects__img">
+                        <a href="#" class="projects__button button">
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
+
+                    <div class="projects_content">
+                        <h3 class="projects__subtitle"></h3>
+                        <h2 class="project-_title"></h2>
+                        <p class="projects__description">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem error enim impedit soluta molestiae esse totam ab odio dolorum unde, repellat eum, omnis suscipit ipsam dolor labore aliquid porro. Accusamus?
+
+                        </p>
+                    </div>
+
+                    <div class="projects__buttons">
+                        <a href="github.com" target="_blank" class="projects__link">
+                            <i class="ri-github-line"></i>View
+                        </a>
+                    </div>
+                </article> <!-- Project 3 -->
+                <article class="projects__card">
+                    <div class="projects__image">
+                        <img src="#" alt="image" class="projects__img">
+                        <a href="#" class="projects__button button">
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
+
+                    <div class="projects_content">
+                        <h3 class="projects__subtitle"></h3>
+                        <h2 class="project-_title"></h2>
+                        <p class="projects__description">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem error enim impedit soluta molestiae esse totam ab odio dolorum unde, repellat eum, omnis suscipit ipsam dolor labore aliquid porro. Accusamus?
+
+                        </p>
+                    </div>
+
+                    <div class="projects__buttons">
+                        <a href="github.com" target="_blank" class="projects__link">
+                            <i class="ri-github-line"></i>View
+                        </a>
+                    </div>
+                </article>
+    
+
+            </div>
+        </section>
+    </main>
+
+    <!-- ========= Footer ========== -->
+    <footer class="footer">
+    <!-- ========== Scroll Up ============ -->
+
+    <!-- ========== Scroll reveal ============ -->
+
+    </footer>
+    <!-- ========== Email JS ============ -->
+
+    <!-- ========== Main ============ -->
+    <script> src="#"</script>
+    <script src="JS/main.js"></script>
 </body>
 </html>
