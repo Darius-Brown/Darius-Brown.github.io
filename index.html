@@ -53,6 +53,9 @@
             </div>
 
             <div class="nav__buttons">
+                <!-- Theme Button -->
+                <i class="ri-moon-line change-theme" id="theme-button"></i>
+
                 <div class="nav__toggle" id="nav-toggle">
                     <i class="ri-menu-3-line"></i>
                 </div>
@@ -158,7 +161,7 @@
             </h2>
 
             <div class="projects__container container grid">
-                <!-- Project 1 -->
+                <!-- Project 1 React Project -->
                 <article class="projects__card">
                     <div class="projects__image">
                         <img src="#" alt="image" class="projects__img">
@@ -182,31 +185,31 @@
                         </a>
                     </div>
                 </article>
-                 <!-- Project 2 -->
+                 <!-- Project 2 Annotation Station -->
                  <article class="projects__card">
                     <div class="projects__image">
-                        <img src="#" alt="image" class="projects__img">
-                        <a href="#" class="projects__button button">
+                        <img src="IMG\annot.PNG" alt="image" class="projects__img">
+                        <a href="http://137.184.1.120/" target='blank' class="projects__button button">
                             <i class="ri-arrow-right-up-line"></i>
                         </a>
                     </div>
 
                     <div class="projects_content">
                         <h3 class="projects__subtitle"></h3>
-                        <h2 class="project-_title"></h2>
+                        <h2 class="project-_title">Annotation Station</h2>
                         <p class="projects__description">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem error enim impedit soluta molestiae esse totam ab odio dolorum unde, repellat eum, omnis suscipit ipsam dolor labore aliquid porro. Accusamus?
-
+                            Annotation Station is an application centered on creating organized collections of timestamped notes of YouTube videos. With this application the user will be able to pick a specific part of a YouTube video to make a timestamp that creates a collection consisting of sections and notes made by the user. Users would be able to create their own unique profile and add all their collections to their profile page. From there, the user can decide either to share their collections within the app's community or keep them private for personal use
                         </p>
                     </div>
 
                     <div class="projects__buttons">
-                        <a href="github.com" target="_blank" class="projects__link">
+                        <a href="https://github.com/Annotation-station-capstone/Annotation-Station" target="_blank" class="projects__link">
                             <i class="ri-github-line"></i>View
                         </a>
                     </div>
-                </article> <!-- Project 3 -->
-                <article class="projects__card">
+                </article> 
+                <!-- Project 3  Data Science APP-->
+                <!-- <article class="projects__card">
                     <div class="projects__image">
                         <img src="#" alt="image" class="projects__img">
                         <a href="#" class="projects__button button">
@@ -228,20 +231,115 @@
                             <i class="ri-github-line"></i>View
                         </a>
                     </div>
-                </article>
+                </article> -->
     
 
             </div>
         </section>
+
+        <!-- ====================Contact====================== -->
+
+        <section class="contact section" id="contact">
+            <div class="contact__containter grid">
+                <div class="contact__data">
+                    <h2 class="section__title-2">
+                        <span>Contact me</span>
+                    </h2>
+
+                    <p class="contact__description-1">
+                        I will read all emails. Feel free to message me and I will get back to you in a timely manner.
+                    </p>
+                    <p class="contact__description-2">
+                        Please leave your <b>Name</b> and <b>Email Address</b>
+                    </p>
+                    <div class="geometric-box"></div>
+                </div>
+
+                <div class="contact__mail">
+                    <h2 class="contact__title">
+                        Send Me a message
+                    </h2>
+
+                    <form action="" class="contact__form" id="contact__form">
+                        <div class="contact__group">
+                            <div class="contact__box">
+                                <input type="text" name="user_name" id="name" class="contact__input" required placeholder="First Name">
+                                <label for="name" class="contact__label">First Name</label>
+                            </div>
+                            <div class="contact__box">
+                                <input type="email" name="user_email" id="email" class="contact__input" required placeholder="Email">
+                                <label for="name" class="contact__label">Email</label>
+                            </div>
+                        </div>
+                        <div class="contact__box contact__area">
+                            <input type="text" name="user_subject" id="subject" class="contact__input" required placeholder="Subject">
+                            <label for="name" class="contact__label">Subject</label>
+                        </div>
+                        <div class="contact__box">
+                            <textarea name="user_message" id="message" class="contact__input" required placeholder="Message"></textarea>
+                            <label for="message" class="contact__label">Message</label>
+                        </div>
+                        <button type='submit' class="contact__button button">
+                            <i class="ri-send-plane-line"></i>Send Message
+                        </button>
+                    </form>
+                </div>
+
+                <div class="contact__social">
+                    <img src="IMG/curved-arrow.svg" alt="" class="contact__social-arrow">
+
+                    <div class="'contact__social-data">
+                        <div>
+                            <p class="contact__social-description-1">
+                                Does not send emails
+                            </p>
+                            <p class="contact__social-description-1">
+                                Contact me on social networks
+                            </p>
+                        </div>
+                        <div class="contact__social-links">
+                            <a href="https://www.instagram.com/dzzgold/" target="blank" class="contact__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/dariusbrown3/" target="blank" class="contact__social-link">
+                                <i class="ri-linkedin-box-line"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
 
     <!-- ========= Footer ========== -->
     <footer class="footer">
-    <!-- ========== Scroll Up ============ -->
+        <div class="footer__container container grid">
+            <ul class="footer__links">
+                <li>
+                    <a href="#about" class="footer__link"></a>
+                </li>
+                <li>
+                    <a href="#projects" class="footer__link"></a>
+                </li>
+                <li>
+                    <a href="#contact" class="footer__link"></a>
+                </li>
+            </ul>
 
+            <span class="footer__copy">
+                &#169; All rights Reserved By
+                <a href="">Darius Brown</a>
+            </span>
+        </div>
+    </footer>
+    <!-- ========== Scroll Up ============ -->
+    <a href="#" class="scrollup" id="scrollup">
+        <i class="ri-arrow-up-s-line"></i>
+    </a>
     <!-- ========== Scroll reveal ============ -->
 
-    </footer>
+  
     <!-- ========== Email JS ============ -->
 
     <!-- ========== Main ============ -->
